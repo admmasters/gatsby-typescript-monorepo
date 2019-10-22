@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "allowJs": true,
+    "target": "es6",
+    "jsx": "react",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "baseUrl": "./",
+    "lib": ["esnext"],
+    "paths": {
+      "Services/*": ["packages/services/*"]
+    }
+  }
+}

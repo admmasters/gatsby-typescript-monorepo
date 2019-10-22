@@ -1,0 +1,7 @@
+{
+  "name": "hello-world-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
